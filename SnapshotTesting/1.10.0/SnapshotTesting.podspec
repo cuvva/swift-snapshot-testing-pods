@@ -19,5 +19,6 @@
     
     s.pod_target_xcconfig = {
          'ENABLE_BITCODE' => 'NO',
+         'ENABLE_TESTING_SEARCH_PATHS' => 'YES',
        }
  end
