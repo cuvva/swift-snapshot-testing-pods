@@ -14,7 +14,7 @@
     s.osx.deployment_target = "10.15"
     s.swift_version = "5.5"
 
-    s.source_files = 'Sources/**/*.swift', 'Sources'
+    s.source_files = ['Sources/**/*.swift', 'Sources']
     s.frameworks = "XCTest"
     
     s.pod_target_xcconfig = {
